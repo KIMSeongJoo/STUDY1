@@ -29,19 +29,6 @@ function modify( id ){
 
 
 $(document).ready(function(){
-
-    var dialog1 = $("#dialog").dialog({ 
-        autoOpen: false,
-        height: 600,
-        width: 350
-      });
-    
-    $("#button_open_dialog").click(function(){
-//        $('#dialog').dialog('open');
-        dialog1.load('/mem_list').dialog('open');
-    });
-    
-    
     $("#clear").click(function(){
         alert("cyka1818");
     });
